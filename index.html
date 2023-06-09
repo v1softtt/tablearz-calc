@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>КАЛЬКУЛЯТОР средних цен Аризона РП</title>
+
+
+    <meta name="description" content="Калькулятор средних цен Аризона РП - это полезный инструмент для игроков на сервере SAMP Аризона РП. С помощью калькулятора вы можете быстро и удобно определить приблизительную стоимость">
+    <meta name="keywords" content="средние цены аризона рп, калькулятор аризона рп, калькулятор цен аризона рп, цены аризона рп">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Калькулятор средних цен Аризона РП">
+    <meta property="og:description" content="Калькулятор средних цен Аризона РП - это полезный инструмент для игроков на сервере SAMP Аризона РП. С помощью калькулятора вы можете быстро и удобно определить приблизительную стоимость">
+    <meta property="og:image" content="img/Frame.jpg">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../libs/aos/dist/aos.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="body">
+    <div class="preloader"></div>
+
+    <div class="wrapper">
+      <header class="header">
+        <div class="container"></div>
+      </header>
+
+      <main class="main" style="background-image: url(img/bg.jpg)">
+        <section class="f-screen">
+          <div class="container">
+            <div class="title-box">
+              <h1>
+                КАЛЬКУЛЯТОР <br />
+                средних цен <span class="color-m"> Аризона РП</span>
+              </h1>
+              <p>Введите цену скупки и получите среднюю стоимость предмета</p>
+            </div>
+
+            <div class="content-calc">
+              <form class="input-box" action="#">
+                <input
+                  type="text"
+                  placeholder="Цена скупки предмета"
+                  class="input-price input1"
+                  id="sum"
+                />
+                <div class="flex">
+                  <input
+                    type="text"
+                    placeholder="Кол-во"
+                    class="input-price input-price2 input2"
+                    value="1"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Множитель"
+                    class="input-price input-price2 input3"
+                    value="*1.3"
+                  />
+                </div>
+                <button
+                  class="btn"
+                  onclick="event.preventDefault();calculate()"
+                >
+                  Посчитать
+                </button>
+                <div class="result">
+                  <p class="result-1">Цена продажи:</p>
+                  <p class="result-2">Прибыль:</p>
+                </div>
+
+                <div class="sps">
+                  <a href="https://boosty.to/tablearz/donate" class="donate">
+                    <img
+                      src="img/boosty-tablearz-donate.png"
+                      alt=""
+                      class="code"
+                    />
+                    <div class="content-donat">
+                      <p>На улучшение проекта</p>
+                      <img src="img/Color.svg" class="boosty" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-link">
+            <a href="https://vk.com/tablearz" class="footer-link__item"
+              >совместно c <span class="color-link-footer">tablearz</span></a
+            >
+            <a href="https://github.com/v1softtt" class="footer-link__item"
+              >веб-разработка
+              <span class="color-link-footer">v1softtt</span></a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="libs/aos/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
