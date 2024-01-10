@@ -22,6 +22,7 @@ html {
   font-size: 16px;
   overflow-x: hidden;
   color: #fff;
+  background-color: #0f0f0f;
 }
 
 img {
@@ -90,7 +91,7 @@ body {
 }
 
 .color-m {
-  color: red;
+  color: #f2e5a0;
 }
 
 .title-box h1 {
@@ -148,10 +149,9 @@ body {
   padding: 18px 0;
   user-select: none;
   cursor: pointer;
-  background: #4bec31;
-  box-shadow: 0px 11px 41px -7px rgba(8, 80, 15, 0.25);
   border-radius: 7px;
-  font-weight: 500;
+  background: linear-gradient(97deg, #FFF2B0 23.73%, #FFEA90 59.18%, #D7932E 102.52%);
+  font-weight: 600;
   font-size: clamp(1.125rem, 0.898rem + 1.14vw, 1.75rem);
   line-height: 34px;
   text-align: center;
@@ -159,24 +159,15 @@ body {
   color: #3c3c3c;
   transition: all 0.3s;
   margin-bottom: 30px;
-
-  box-shadow: 0px 4px 97px rgba(51, 247, 20, 0.58);
 }
 
 .btn:hover {
-  background: #1dd700;
-  box-shadow: 0px 11px 41px -7px rgba(8, 80, 15, 0.25);
-  border-radius: 7px;
-  font-weight: 500;
-  line-height: 34px;
-  text-align: center;
-  color: #3c3c3c;
-  box-shadow: 0px 4px 97px rgba(51, 247, 20, 0.58);
+  box-shadow: 0px 11px 41px -5px rgba(80, 58, 8, 0.25), 0px 4px 100.5px 0px rgba(255, 241, 169, 0.46);
 }
 
 .btn:active {
-  background: #4bec31;
-  box-shadow: 0px 4px 97px rgba(51, 247, 20, 0.58);
+  transform: translateY(2px);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
 .input2 {
@@ -217,7 +208,7 @@ body {
 }
 
 .color-link-footer {
-  color: #1dd700;
+  color: #f2e5a0;
 }
 
 .result-1 {
@@ -259,11 +250,11 @@ body {
   display: flex;
   align-items: center;
 }
-.donate p {
+.donate h3 {
   font-size: clamp(0.875rem, 0.602rem + 1.36vw, 1.625rem);
-  max-width: 300px;
+  max-width: 350px;
   text-align: start;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
